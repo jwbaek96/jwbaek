@@ -14,6 +14,8 @@
     --txtColor-2:#dddddd;
     --txtColor-3:#bebebe;
     --txtColor-4:#8d8d8d;
+    /* --base-bgcolor: #0e0e0e; */
+    --base-bgcolor: #ededed;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -37,7 +39,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0e0e0e;
+    background-color: var(--base-bgcolor);
     position: relative;
     /* overflow: hidden; */
     font-family: 'Pretendard-Regular', Helvetica,sans-serif ,serif;
